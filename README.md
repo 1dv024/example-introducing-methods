@@ -1,6 +1,6 @@
 # Introducing methods
 
-Ett kodexempel från Essential C# 6.0, kapitel 4, sidan 169-170, som här har fått en något varierad form samt även kommentarer till koden.
+Ett kodexempel från Essential C# 6.0, kapitel 4, sidan 169-170, som här har fått en något varierad form samt kommentarer till koden.
 
 ## Läs
 
