@@ -40,12 +40,12 @@ namespace IntroducingMethods
         }
 
         // C# 6.0:s "expression bodied-method" har avsevärt komprimerat 
-        // metodkroppen i kursbokens ursprungliga version av 'GetFullName()'
+        // metodkroppen i kursbokens ursprungliga version av 'GetFullName():
 
         // static string GetFullName(string fName, string lName) => $"{fName} {lName}";
 
         // Jämfört med den expanderade definitionen nedan, kan användning av 
-        // lambda-uttryck förenkla skrivandet av okomplicerade metoder likt denna.
+        // lambda-uttryck förenkla skrivandet av okomplicerade metoder som denna.
         // Den eleganta och till synes effektiva syntaxen påverkar dock inte faktisk
         // prestanda, då båda alternativ expanderas till samma IL-kod vid körning (runtime).
         // Även om den är raffinerad finns alltså inget högre ändamål med denna 
@@ -77,7 +77,7 @@ namespace IntroducingMethods
             // Skriv ut det fullständiga namnet samt initialerna och lämna metoden.
             Console.WriteLine($"Hej {fullName}! Dina initialer är {initials}");
 
-            return; // Denna sats behövs egentligen inte då metodens returtyp är void,
+            return; // Denna sats behövs egentligen inte då metodens returtyp är void,
                     // men är alltså fullt möjligt att använda även här.
         }
     }

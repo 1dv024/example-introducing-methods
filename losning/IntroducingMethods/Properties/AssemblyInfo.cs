@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("IntroducingMethods")]
-[assembly: AssemblyDescription("Inledande programmering med C# (1DV402)")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Linnéuniversitetet")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("IntroducingMethods")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9ecd3e5e-bb68-453c-957f-645fca4bc0de")]
+[assembly: Guid("d3371519-3493-4429-821a-8ad3285acf76")]
 
 // Version information for an assembly consists of the following four values:
 //
